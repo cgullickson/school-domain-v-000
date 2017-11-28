@@ -8,4 +8,5 @@ class School
   def roster=(grade, students)
     @roster = {grade: students}
   end
+  
 end
