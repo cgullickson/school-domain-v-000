@@ -7,9 +7,11 @@ class School
     @roster = roster
   end
 
-  def add_student (student_name, grade)
-    @roster[grade] = []
-    @roster[grade] << student_name
+  def add_student (student, grade)
+    if @roster[grade] = nil
+      @roster[grade] = []    
+    end
+    @roster[grade] << student
 
   end
 
