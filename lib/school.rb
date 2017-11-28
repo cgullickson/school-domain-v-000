@@ -5,8 +5,8 @@ class School
     @name = name
   end
 
-  def roster=(grade, students)
+  def roster=(hash)
     @roster = {}
   end
-  
+
 end
