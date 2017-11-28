@@ -6,7 +6,7 @@ class School
   end
 
   def roster=(grade, students)
-    @roster = {grade: students}
+    @roster = {}
   end
   
 end
