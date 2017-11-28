@@ -8,8 +8,6 @@ class School
   end
 
   def add_student (student, grade)
-
-    [grade] << student
   end
 
 end
