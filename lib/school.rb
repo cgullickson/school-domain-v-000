@@ -12,7 +12,6 @@ class School
       @roster[grade] = []    
     end
     @roster[grade] << student
-
   end
 
 end
